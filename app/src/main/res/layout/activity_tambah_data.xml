@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".TambahDataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIM"
+            android:inputType="number"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/edtTempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tempat Lahir"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/edtTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:hint="Tanggal Lahir"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/edtAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/edtAgama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Agama"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/edtTlp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tlp/HP"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/edtMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tahun Masuk"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/edtLulus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tahun Lulus"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/edtKerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pekerjaan"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/edtJabatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jabatan"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/actionSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimary"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:text="Simpan"
+            android:textColor="#FFF" />
+        <Button
+            android:id="@+id/actionHapus"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Hapus"
+            android:textColor="#FFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
